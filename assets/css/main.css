@@ -56,8 +56,13 @@ body {
 }
 
 mark {
-	background-color: transparent;
-	color: inherit;
+	/*
+		background-color: transparent;
+		color: inherit; 
+	*/
+	background-color: lightblue;
+	color: black;
+
 }
 
 input::-moz-focus-inner {
@@ -123,7 +128,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #787878;
-		font-weight: 400;
+		font-weight: bold;
 	}
 
 	em, i {
